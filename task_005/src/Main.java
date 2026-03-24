@@ -4,6 +4,7 @@
 //заповнення типом – Т).
 public class Main {
     public static void main(String[] args) {
-
+        User user = MyClass.factoryMethod(() -> new User("Vasyl"));
+        System.out.println(user);
     }
 }

@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 //Завдання 2
 //Створіть проєкт за допомогою IntelliJ IDEA. Створіть клас MyList. Реалізуйте у найпростішому наближенні можливість
 //використання його екземпляра аналогічно екземпляру класу List. Мінімально необхідний інтерфейс взаємодії з екземпляром
@@ -20,5 +17,8 @@ public class Main {
         for (int i = 0; i < listInteger.size(); i++) {
             System.out.print(listInteger.get(i) + " ");
         }
+    }
+
+    public static class MyClass {
     }
 }
